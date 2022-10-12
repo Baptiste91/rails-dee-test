@@ -1,0 +1,151 @@
+<div style=" padding: 10px;">
+  <h5 style="color: white;"> Serie 1</h5>
+  <div class="row mb-2">
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-1.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg">
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-2.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg-2">
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-3.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg-3">
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-4.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg-4">
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-5.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg-5">
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-2">
+          <div class="card-category mb-3" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'serie1-6.jpeg' %>)" data-toggle="modal" data-target=".bd-example-modal-lg-6">
+          </div>
+      </div>
+  </div>
+  <h5 style="color: white;"> Serie 2</h5>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 80%; margin-right: auto; margin-left: auto;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <%= image_tag "serie2-1.jpeg", alt: "random", height: 350, class: "d-block w-100", style: "object-fit: contain;" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "serie2-2.jpeg", alt: "random", height: 350, class: "d-block w-100", style: "object-fit: contain;"  %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "serie2-3.jpeg", alt: "random", height: 350, class: "d-block w-100", style: "object-fit: contain;"  %>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <h5 style="color: white;"> Serie 3</h5>
+</div>
+
+
+<!-- Modals -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-1.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg-2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-2.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg-3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-3.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-4.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg-5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-5.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content container">
+      <div class ="mt-4" style="display: flex; justify-content: center; align-items: center;">
+        <%= image_tag "serie1-6.jpeg", alt: "random", width: 500 %>
+      </div>
+      <p>Description</p>
+    </div>
+  </div>
+</div>
+
+ <div class="row mb-2">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div>
+        <%= video_tag "test-video.mp4", :size => "320x240", :controls => true %>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div>
+        <%= image_tag "serie1-1.jpeg", alt: "random", width: 250 %>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div>
+        <%= video_tag "test-video.mp4", :size => "320x240", :controls => true %>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+      <div>
+        <%= image_tag "serie1-1.jpeg", alt: "random", width: 250 %>
+      </div>
+    </div>
+  </div>
+
+
